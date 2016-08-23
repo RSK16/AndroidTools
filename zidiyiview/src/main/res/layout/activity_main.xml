@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:uview="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.zidiyiview.MainActivity">
+
+<com.example.zidiyiview.MyView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/myImageView1"
+    uview:Text="这是个图片说明"
+    uview:Src="@drawable/capture"
+    uview:Oriental="Vetical"
+    Text="hello"
+    Src="@drawable/capture"/>
+
+</LinearLayout>

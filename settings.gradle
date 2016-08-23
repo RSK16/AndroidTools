@@ -1,0 +1,1 @@
+include ':app', ':zidiyiview', ':imageloader', ':androidserver', ':xialaRefreshView'

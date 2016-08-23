@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyImageView">
+        <!--定义了三个属性 Text，Src，Oriental 他们属于自定义的实体MyImageView-->
+        <attr name="Text" format="reference|string"/>
+        <attr name="Oriental">
+            <enum name="Horizontal" value="1"></enum>
+            <enum name="Vetical" value="0"></enum>
+        </attr>
+        <attr name="Src" format="reference|integer"/>
+    </declare-styleable>
+
+</resources>
